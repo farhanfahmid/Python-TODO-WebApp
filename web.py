@@ -10,8 +10,8 @@ def add_task():
     st.session_state['new_task'] = ""
 
 
-st.title("To-Do Web App")
-st.subheader("Welcome! What TO DO Today?")
+st.title("Welcome!")
+st.subheader("What TO DO Today?")
 st.text_input(label="", placeholder="Add a Task",
               on_change=add_task, key='new_task')
 
